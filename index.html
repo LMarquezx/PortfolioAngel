@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="tablist.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+			<ul>
+				<li><a href="#">00 Contact</a></li>
+				<li><a href="#">01 Works</a></li>
+				<li><a href="#">02 Experience</a></li>
+				<li><a href="#">03 About</a></li>
+			</ul>
+		</nav>
+    </header>
+    <div class="contenido">
+        <div class="nombre">
+            <h6>Hola, mi nombre es:</h6>
+            <h2>Luis Angel Orduña</h2>
+            <p>Soy estudiante de último año de Ingeniería 
+                en Sistemas Computacionales, especializado
+                 en desarrollo de aplicaciones en Java y con
+                  experiencia en desarrollo web y bases de
+                   datos. Domino el uso de comandos en 
+                   CMD y Terminal de Linux, habiendo
+                 trabajado con distribuciones como Ubuntu, 
+                 Linux Mint, Elementary, Zorin OS y macOS.</p>
+                 <br>
+                 <a href="#">Check my CV</a>
+        </div>
+        <seccion class="About">
+            <h2>03 Acerca de mi</h2>
+            <div class="container">
+                <div class="txt">
+                    <p>Hola, mi nombre es Luis Ángel y tengo una gran pasión por la programación. Tengo afinidad por lenguajes como Java y C++. Mi interés en la programación comenzó en la preparatoria, cuando me inscribí en la carrera de Técnico Programador, donde aprendí sobre el desarrollo de aplicaciones de escritorio, aplicaciones web, bases de datos y programación orientada a objetos. <br> <br>
+                        Durante mi educación universitaria, profesionalicé mis conocimientos en el desarrollo de aplicaciones y me especialicé en la programación backend, utilizando Java con frameworks como Spring y Angular.
+                        <br><br>
+                        He desarrollado proyectos tanto para uso personal como para empresas que requieren mis servicios como programador, soporte técnico o reparación. No tengo miedo de intentar cosas nuevas y disfruto enfrentando retos.
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="images/profile.jpeg" width="350px" height="350px">
+                </div>
+            </div>
+        </seccion>
+        
+        <div class="tabtitle"><h2>02 Proyectos Realizados</h2></div>
+        <div class="tablist-container">
+            
+            <div class="tablist" role="tablist">
+                <button class="tab" role="tab" aria-selected="true" aria-controls="panel1" id="tab1">FarmaVet</button>
+                <button class="tab" role="tab" aria-selected="false" aria-controls="panel2" id="tab2">Tabla Periodica Interactiva TaPeIn</button>
+                <button class="tab" role="tab" aria-selected="false" aria-controls="panel3" id="tab3">Citas AT&T</button>
+                <button class="tab" role="tab" aria-selected="false" aria-controls="panel4" id="tab4">Web Chiltepec</button>
+            </div>
+            <div class="tab-content">
+                <div class="tabpanel" role="tabpanel" id="panel1" aria-labelledby="tab1">
+                    <h2>FarmaVet</h2>
+                    <p>Sistema Gestor de medicamentos, proyecto ralizado a una reserva ecologica con servicio de veterinaria para los animales del lugar, haciendo el manejo de los medicamentos mas accesible a los veterinarios.</p>
+                    <img src="images/meds.jpeg" alt="">
+                </div>
+                <div class="tabpanel" role="tabpanel" id="panel2" aria-labelledby="tab2" hidden>
+                    <h2>Tabla Periodica Interactiva TaPeIn</h2>
+                    <p>Proyecto de ciencias creado para impulsar el aprendizaje en alumnos de 2do semestre del CBTis 107 de la ciudad de Tuxtepec Oaxaca.</p>
+                    <img src="images/tab.jpg" alt="">
+                </div>
+                <div class="tabpanel" role="tabpanel" id="panel3" aria-labelledby="tab3" hidden>
+                    <h2>Control de Citas AT&T</h2>
+                    <p>Proyecto de ciencias creado para impulsar el aprendizaje en alumnos de 2do semestre del CBTis 107 de la ciudad de Tuxtepec Oaxaca.</p>
+                    <img src="images/attt.jpg" alt="">
+                </div>
+                <div class="tabpanel" role="tabpanel" id="panel4" aria-labelledby="tab4" hidden>
+                    <h2>Propuesta Sitio Web Municipio Chiltepec</h2>
+                    <p>Proyecto de ciencias creado para impulsar el aprendizaje en alumnos de 2do semestre del CBTis 107 de la ciudad de Tuxtepec Oaxaca.</p>
+                    <img src="images/chil.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
